@@ -1,10 +1,10 @@
-import Counter from "./testComponents/Counter";
+import { CounterMemo } from "./testComponents/Counter";
 
 function App() {
   return (
     <>
       <h1>안녕</h1>
-      <Counter></Counter>
+      <CounterMemo></CounterMemo>
     </>
   );
 }
